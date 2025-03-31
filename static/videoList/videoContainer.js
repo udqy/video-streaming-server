@@ -7,6 +7,7 @@ class VideoList extends HTMLElement {
     style.textContent = `  
         .video-container {
             display: grid;
+            grid-template-columns: repeat(5, 1fr);
             gap: 1rem;
             padding: 1rem;
         }
